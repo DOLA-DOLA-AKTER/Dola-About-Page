@@ -529,4 +529,99 @@ p {
 
 /* Socials End */
 
+.navbar-brand img {
+    height: 44px;
+}
+
+.box {
+    width: 40px;
+    height: 20px;
+    background: #6a70e2;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.miniBox {
+    width: 16px;
+    height: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.custome-btn1 {
+    background-color: #5d5dfa !important;
+    color: white !important;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    padding: 8px 24px;
+    transition: all 0.2s ease;
+}
+
+.custome-btn1:hover {
+    background-color: #4b4bca;
+    color: white !important;
+    transform: translateY(-1px);
+}
+
+/* footer */
+/* footer */
+.footer-section {
+    background-color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.footer-section h6 {
+    color: #131022;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #565973;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #6366f1;
+    padding-left: 5px;
+}
+
+
+.newsletter-box .input-group {
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 350px;
+}
+
+.newsletter-box input {
+    height: 45px;
+    font-size: 0.85rem;
+}
+
+.newsletter-box .btn-primary {
+    background-color: #6366f1;
+    border: none;
+}
+
+
+.footer-section.border-top, 
+.footer-section .border-top {
+    border-color: #e2e5f1 !important;
+}
+
+@media (max-width: 768px) {
+    .newsletter-box {
+        max-width: 100%;
+    }
+}
+
+
 /* ==================== Dola--About--Page--End ==================== */
